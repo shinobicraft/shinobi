@@ -181,12 +181,12 @@ client.on('message',async message => {  //! 𝔻𝕍 |☬ elghichem_gamez#8832
           creator: message.author.id  //WESO#0001
         };
  
-        m = await m.edit('**# تم عمل الكلان بنجاح**');  //WESO#0001
+        m = await m.edit('**# تم عمل الكلان بنجاح**');  //! 𝔻𝕍 |☬ elghichem_gamez#8832
       }, 2300);
  
     }
     if(args[1] && args[1] === 'invite') {  //WESO#0001
-      if(!system[author.id]) return message.channel.send("**# أنت لست بكلان**");  //WESO#0001
+      if(!system[author.id]) return message.channel.send("**# أنت لست بكلان**");  //! 𝔻𝕍 |☬ elghichem_gamez#8832
       let clan = system[author.id].clan;
       if(system[author.id].clan === 'None') return message.channel.send('**# أنت لست بكلان**');  //WESO#0001
       if(!clans[clan].admins.includes(message.author.id) && clans[system[author.id].clan].creator !== message.author.id) return message.channel.send('**# يجب عليك ان تكون اداري بالكلان**');
@@ -1282,7 +1282,7 @@ client.on('message', message => {
     }).then(invite =>
       message.author.sendMessage(invite.url)
     )
-  message.channel.send("**:link:.تم ارسال الرابط برسالة خاصة**")
+  message.channel.send("**:https://discordapp.com/api/oauth2/authorize?client_id=627514432876183603&permissions=8&redirect_uri=https%3A%2F%2Fdiscordapp.com%2Fapi%2Foauth2%2Fauthorize&scope=bot:.تم ارسال الرابط برسالة خاصة**")
 
 message.author.send(`**مدة الرابط : يـوم
 عدد استخدامات الرابط : 100**`)
@@ -3739,7 +3739,7 @@ reaction2.on("collect", r => {
 『-unmutechannel ====> فتح الشات
 『-ct <name> ====> انشاء شات
 『-cv <name> ====> انشاء رووم فويس
-『 By ====> WESO#0001
+『 By ====> ! 𝔻𝕍 |☬ elghichem_gamez#8832
 **
 `)
    message.author.sendEmbed(embed)
@@ -3777,7 +3777,7 @@ reaction3.on("collect", r => {
 『-لعبة مريم ====> مريم
 『-عواصم
 『-يعطيك عقابات قاسية ====> عقاب
-『 By ====> WESO#0001
+『 By ====> ! 𝔻𝕍 |☬ elghichem_gamez#8832
 `)
    message.author.sendEmbed(embed)
    message.reply('تم ارسالك بلخاص')
@@ -3789,7 +3789,7 @@ reaction3.on("collect", r => {
             -=- الرومات اللازمة للبوت -=-
 『=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.』
 تحتاج رومات بالاسماء التالية
-Weclom روم الترحيب
+👋welcome👋 روم الترحيب
 suggestions روم الاقتراحات
 'روم 'التقديمات 
 روم التوديع leave
